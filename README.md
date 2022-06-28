@@ -1,6 +1,5 @@
-# youtube_clone
 
-A new Flutter project.
+# YouTube clone only HomePage
 
 ## Getting Started
 
