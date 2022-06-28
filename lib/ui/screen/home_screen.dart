@@ -15,19 +15,17 @@ class HomeScreen extends StatelessWidget {
             floatHeaderSlivers: true,
             headerSliverBuilder: (context, innerBoxIsScrolled) =>
                 [const AppHeaderWidget()],
-            body: Expanded(
-              child: ListView(
-                padding: EdgeInsets.zero,
-                children: const [
-                  AdsWidget(),
-                  CardWidget(),
-                  SizedBox(
-                    height: 8,
-                  ),
-                  ShortsWidget(),
-                  CardContainer()
-                ],
-              ),
+            body: ListView(
+              padding: EdgeInsets.zero,
+              children: const [
+                AdsWidget(),
+                CardWidget(),
+                SizedBox(
+                  height: 8,
+                ),
+                ShortsWidget(),
+                CardContainer()
+              ],
             )),
         bottomNavigationBar: const AppBottomNavWidgets());
   }
